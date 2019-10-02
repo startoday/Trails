@@ -1,0 +1,50 @@
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+	 background-image: url("https://images.unsplash.com/photo-1465513670158-c3ac6c8d1a87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+	 background-size: cover;
+}
+
+.navbar-custom {
+  
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #009999;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #001a1a;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ccfff2;
+}
+
+.thumbnail h5 {
+    color:#59a687;
+}
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.text-right .btn-success {
+  margin: 0 auto;
+}
+
+#delete-form {
+    display: inline;
+}
+
